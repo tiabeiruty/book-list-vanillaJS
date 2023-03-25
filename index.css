@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgb(212, 212, 212), burlywood);
+}
+
+.flex-dude {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(94, 90, 90);
+    background-color: antiquewhite;
+}
+
+#button-book {
+    color: rgb(94, 90, 90);
+    border-radius: 10px;
+    border: 5px dotted burlywood;
+    background-color: bisque;
+    height: 50px;
+    font-size: medium;
+    margin: 1.2%;
+}
+
+#button-book:hover {
+    cursor: pointer;
+    background-color: rgb(116, 113, 113);
+    color: burlywood;
+}
+
+.label {
+    text-transform: uppercase;
+    color: rgb(94, 90, 90);
+    font-family: monospace;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+input {
+    border: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(155, 113, 8);
+    margin: 0.5%;
+    width: 100%;
+    height: 30px;
+}
+
+table,
+tr,
+td {
+    border: 2px solid burlywood;
+    margin: 0.5%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+
+.delete-btn {
+    color: rgb(94, 90, 90);
+    border-radius: 10px;
+    border: 5px dotted burlywood;
+    margin: 0.2%;
+    background-color: bisque;
+    height: 30px;
+    font-size: medium;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    background-color: rgb(116, 113, 113);
+    color: burlywood;
+}
